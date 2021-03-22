@@ -29,7 +29,7 @@
 - In HTML5, forms can only have one of two methods: get and post
 - `npm install method-override`
 
-## Update
+## Update (update the content of our task; make it as complete)
 - `app.patch()`
 - `app.put()`
 - RESTful routes
