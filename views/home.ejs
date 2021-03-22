@@ -2,7 +2,7 @@
 <body>
   <%- include('./partials/navbar.ejs') %>
   <div class="ui segment container">
-    <h1>To Do List:</h1>
+    <h1>Ann's To Do List:</h1>
     <ul>
       <% for(const task of tasks){ %>
         <li><a href="/tasks/<%= task.id %>"> <%= task.title %> </a> <%= task.done ? "(Done)" : "(Not Done)" %> </li>

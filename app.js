@@ -6,13 +6,15 @@ app.use(express.urlencoded({ extended: true }))
 
 app.listen(PORT, () => {console.log(`Server started on port ${PORT}`)})
 
-let taskCount = 0
-let tasks = [{id: ++taskCount, title: "Walk dog", description: "hi", done: true}, {id: ++taskCount, title: "Eat", description: "hey", done: false}]
-
 app.use((req, res, next) => {
   console.log(req.method, req.url, new Date())
   next()
 })
+
+//*********** MOCK DATABASE************/
+
+let taskCount = 0
+let tasks = [{id: ++taskCount, title: "Walk dog", description: "hi", done: true}, {id: ++taskCount, title: "Eat", description: "hey", done: false}]
 
 //*********** ROUTES ****************/
 

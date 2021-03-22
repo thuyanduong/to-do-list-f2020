@@ -1,13 +1,16 @@
 # Lab Review
-- Goal: get enough practice to build out CRUD and RESTful applications
+- Goal: get more practice building out CRUD and RESTful applications
 
-## Review basic structure 
-- Express
-- EJS and Styling
+## Deploy App
+- Heroku is another git remote
 - Deploying to Heroku
     * `const PORT = process.env.PORT || 3000`
     * You need to have an npm `start` script of `node <file.js>`
     * Your Heroku server will definitely have node installed, but maybe not nodemon
+
+## Review basic structure 
+- Express
+- EJS and Styling
 - [Restful Routes](https://medium.com/@shubhangirajagrawal/the-7-restful-routes-a8e84201f206)
 
 ## Read
