@@ -1,0 +1,10 @@
+<%- include('./partials/header.ejs') %>
+<body>
+  <%- include('./partials/navbar.ejs') %>
+  <div class="ui segment container">
+    <h1><%= task.title %></h1>
+    <p>Description: <%= task.description %></p>
+    <p>Status: <%= task.done ? "Done" : "Not Done" %></p>
+  </div>
+</body>
+</html>
